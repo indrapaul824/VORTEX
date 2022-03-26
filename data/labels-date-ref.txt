@@ -56,20 +56,21 @@ Cyclonic Storm(Normal):
 14. 3 December, 2021		-> 759
 
 done:
-735,737,739,747,750,751,753,756,757,758,759
-remaining:
+735,737,739,747,750,751,753,756,757,758,759 - Done
 
-736
-738
-740
-741
-742
-743
-744
-745
-746
-748
-749
-752
+remaining:
+736 done
+738 done
+740 done
+741 done
+742 done
+743 done
+744 done
+745 done
+746 done
+748 done
+749 will be downloaded in temp
+752 downloading in temp3
 754
 755
+760
