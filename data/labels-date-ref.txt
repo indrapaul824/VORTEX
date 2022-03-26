@@ -56,7 +56,7 @@ Cyclonic Storm(Normal):
 14. 3 December, 2021
 
 done:
-735,737,739
+735,737,739,747,750,751
 remaining:
 
 736
@@ -68,3 +68,5 @@ remaining:
 744
 745
 746
+748
+749
