@@ -39,7 +39,7 @@ Severe Cyclonic Storm:
 12. 15 May, 2021			-> 744
 13. 24 May, 2021			-> 745
 
-Cyclonic Storm:
+Cyclonic Storm(Normal):
 1. 11 June, 2014 			-> 735
 2. 8 October, 2014 			-> 736
 3. 19 May, 2016 			-> 737
@@ -54,3 +54,17 @@ Cyclonic Storm:
 12. 2 June, 2020
 13. 1 December, 2020
 14. 3 December, 2021
+
+done:
+735,737,739
+remaining:
+
+736
+738
+740
+741
+742
+743
+744
+745
+746
