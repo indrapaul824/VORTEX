@@ -17,3 +17,6 @@ conda-pip:
 	$(CONDA_ACTIVATE) vortex3.9
 	pip-compile requirements/req.in
 	pip-sync requirements/req.txt
+pip-tools:
+	pip-compile requirements/req.in
+	pip-sync requirements/req.txt
