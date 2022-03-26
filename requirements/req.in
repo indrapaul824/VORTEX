@@ -5,3 +5,4 @@ sklearn
 ipykernel
 matplotlib
 opencv-python
+Pillow

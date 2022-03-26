@@ -65,7 +65,9 @@ pexpect==4.8.0
 pickleshare==0.7.5
     # via ipython
 pillow==9.0.1
-    # via matplotlib
+    # via
+    #   -r requirements/req.in
+    #   matplotlib
 prompt-toolkit==3.0.28
     # via ipython
 psutil==5.9.0
