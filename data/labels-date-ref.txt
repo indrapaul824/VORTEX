@@ -14,25 +14,25 @@ Extremely Severe Cyclonic Storm:
 Very Severe Cyclonic Storm:
 1. 11 October, 2014 			-> 736
 2. 11 December, 2016 			-> 738
-3. 2 december, 2017			
-4. 9, 10 October, 2018		
-5. 14, 15 November, 2018	
-6. 12 June, 2019			
+3. 2 December, 2017			-> 746
+4. 9, 10 October, 2018		-> 747
+5. 14, 15 November, 2018	-> 748
+6. 12 June, 2019			-> 749
 7. 3 November, 2019			-> 743
 8. 8 November, 2019			-> 743
-9. 25 November, 2020
+9. 25 November, 2020		-> 750
 10. 16 May, 2021			-> 744
 11. 25 May, 2021			-> 745
 
 Severe Cyclonic Storm:
 1. 9 October, 2014 			-> 736
 2. 9 December, 2016 			-> 738
-3. 29 May, 2017
-4. 1 December, 2017
-5. 12, 13 November, 2018
+3. 29 May, 2017				-> 751
+4. 1 December, 2017			-> 746
+5. 12, 13 November, 2018	-> 748
 6. 16 December, 2018
 7. 20 April, 2019
-8. 11 June, 2019
+8. 11 June, 2019			-> 749
 9. 6 November, 2019			-> 743
 10. 3 June, 2020
 11. 2 December, 2020
@@ -47,7 +47,7 @@ Cyclonic Storm:
 5. 16 April, 2017
 6. 17 May, 2018
 7. 20 September, 2018
-8. 11 November, 2018
+8. 11 November, 2018		-> 748
 9. 15 December, 2018
 10. 28 April, 2019			-> 742
 11. 1 November, 2019			-> 743
