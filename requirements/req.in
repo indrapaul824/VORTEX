@@ -6,3 +6,4 @@ ipykernel
 matplotlib
 opencv-python
 Pillow
+labelImg
