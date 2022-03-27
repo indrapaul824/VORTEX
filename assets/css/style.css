@@ -356,6 +356,20 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-get-started:hover {
   background: #209dd8;
 }
+.intensity .button{
+  border-radius: 8px;
+  background-color: #3074e3;
+  border: none;
+  width: 120px;
+  height: 60px;
+}
+.detection .button{
+  border-radius: 8px;
+  background-color: #3074e3;
+  border: none;
+  width: 120px;
+  height: 60px;
+}
 #hero .btn-watch-video {
   font-size: 16px;
   display: flex;
