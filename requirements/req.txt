@@ -107,6 +107,7 @@ numpy==1.22.3
     #   scipy
     #   tensorboard
     #   tensorflow
+    #   tensorflow-hub
 oauthlib==3.2.0
     # via requests-oauthlib
 opencv-python==4.5.5.64
@@ -133,6 +134,7 @@ protobuf==3.19.4
     # via
     #   tensorboard
     #   tensorflow
+    #   tensorflow-hub
 psutil==5.9.0
     # via ipykernel
 ptyprocess==0.7.0
@@ -189,6 +191,7 @@ six==1.16.0
     #   keras-preprocessing
     #   python-dateutil
     #   tensorflow
+    #   tensorflowjs
 sklearn==0.0
     # via -r requirements/req.in
 stack-data==0.2.0
@@ -200,9 +203,15 @@ tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
     # via tensorboard
 tensorflow==2.8.0
-    # via -r requirements/req.in
+    # via
+    #   -r requirements/req.in
+    #   tensorflowjs
+tensorflow-hub==0.12.0
+    # via tensorflowjs
 tensorflow-io-gcs-filesystem==0.24.0
     # via tensorflow
+tensorflowjs==3.15.0
+    # via -r requirements/req.in
 termcolor==1.1.0
     # via tensorflow
 tf-estimator-nightly==2.8.0.dev2021122109
