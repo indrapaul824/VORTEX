@@ -1,3 +1,4 @@
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -13,16 +14,11 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Jost", sans-serif;
 }
 
-#preloader {
+  #preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -103,8 +99,7 @@ h6 {
   z-index: 997;
   padding: 15px 0;
 }
-#header.header-scrolled,
-#header.header-inner-pages {
+#header.header-scrolled, #header.header-inner-pages {
   background: rgba(40, 58, 90, 0.9);
 }
 #header .logo {
@@ -142,8 +137,7 @@ h6 {
 .navbar li {
   position: relative;
 }
-.navbar a,
-.navbar a:focus {
+.navbar a, .navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -154,20 +148,15 @@ h6 {
   white-space: nowrap;
   transition: 0.3s;
 }
-.navbar a i,
-.navbar a:focus i {
+.navbar a i, .navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
 }
-.navbar a:hover,
-.navbar .active,
-.navbar .active:focus,
-.navbar li:hover > a {
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: #47b2e4;
 }
-.navbar .getstarted,
-.navbar .getstarted:focus {
+.navbar .getstarted, .navbar .getstarted:focus {
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 50px;
@@ -176,8 +165,7 @@ h6 {
   border: 2px solid #47b2e4;
   font-weight: 600;
 }
-.navbar .getstarted:hover,
-.navbar .getstarted:focus:hover {
+.navbar .getstarted:hover, .navbar .getstarted:focus:hover {
   color: #fff;
   background: #31a9e1;
 }
@@ -209,9 +197,7 @@ h6 {
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
-.navbar .dropdown ul a:hover,
-.navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
   color: #47b2e4;
 }
 .navbar .dropdown:hover > ul {
@@ -292,19 +278,15 @@ h6 {
   overflow-y: auto;
   transition: 0.3s;
 }
-.navbar-mobile a,
-.navbar-mobile a:focus {
+.navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
   color: #37517e;
 }
-.navbar-mobile a:hover,
-.navbar-mobile .active,
-.navbar-mobile li:hover > a {
+.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #47b2e4;
 }
-.navbar-mobile .getstarted,
-.navbar-mobile .getstarted:focus {
+.navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
   color: #37517e;
 }
@@ -328,9 +310,7 @@ h6 {
 .navbar-mobile .dropdown ul a i {
   font-size: 12px;
 }
-.navbar-mobile .dropdown ul a:hover,
-.navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
   color: #47b2e4;
 }
 .navbar-mobile .dropdown > .dropdown-active {
@@ -376,21 +356,43 @@ h6 {
 #hero .btn-get-started:hover {
   background: #209dd8;
 }
-.intensity .button {
-  border-radius: 8px;
-  background-color: #3074e3;
-  border: none;
-  width: 120px;
-  height: 60px;
-  color: white;
+.upload {
+  height: 25px;
+  width: 66px;
+  display: block;
+  cursor: pointer;
+  background: url('http://www.ifunia.com/images/christmas/youtube-upload-button.gif') center center no-repeat;
 }
-.detection .button {
+.upload-btn-wrapper {
+  padding-left: 150px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
   border-radius: 8px;
   background-color: #3074e3;
   border: none;
   width: 120px;
-  height: 60px;
-  color: white;
+  height: 65px;
+  color: #fff;
+}
+.predict-button {
+  border-radius: 8px;
+  background-color: #3074e3;
+  border: none;
+  width: 120px;
+  height: 66.2px;
+  color: #fff;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
 }
 #hero .btn-watch-video {
   font-size: 16px;
@@ -600,9 +602,10 @@ section {
 # Why Us
 --------------------------------------------------------------*/
 .intensity .content {
-  padding: 60px 100px 0 100px;
+  padding: 70px 100px 0 100px;
 }
 .intensity .content h3 {
+  padding-left: 150px;
   font-weight: 400;
   font-size: 34px;
   color: #37517e;
@@ -617,9 +620,10 @@ section {
   color: #848484;
 }
 .intensity .img {
+  width: 300px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
 }
 .intensity .accordion-list {
   padding: 0 100px 60px 100px;
@@ -679,8 +683,7 @@ section {
   display: none;
 }
 @media (max-width: 1024px) {
-  .intensity .content,
-  .intensity .accordion-list {
+  .intensity .content, .intensity .accordion-list {
     padding-left: 0;
     padding-right: 0;
   }
@@ -709,6 +712,7 @@ section {
   padding: 60px 100px 0 100px;
 }
 .detection .content h3 {
+  padding-left: 150px;
   font-weight: 400;
   font-size: 34px;
   color: #37517e;
@@ -723,9 +727,10 @@ section {
   color: #848484;
 }
 .detection .img {
+  width: 300px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
 }
 .detection .accordion-list {
   padding: 0 100px 60px 100px;
@@ -785,8 +790,7 @@ section {
   display: none;
 }
 @media (max-width: 1024px) {
-  .detection .content,
-  .detection .accordion-list {
+  .detection .content, .detection .accordion-list {
     padding-left: 0;
     padding-right: 0;
   }
@@ -1035,8 +1039,7 @@ section {
   left: 20px;
   color: #47b2e4;
 }
-.faq .faq-list .icon-show,
-.faq .faq-list .icon-close {
+.faq .faq-list .icon-show, .faq .faq-list .icon-close {
   font-size: 24px;
   position: absolute;
   right: 0;
@@ -1129,9 +1132,7 @@ section {
   background: #47b2e4;
   color: #fff;
 }
-.contact .info .email:hover i,
-.contact .info .address:hover i,
-.contact .info .phone:hover i {
+.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #47b2e4;
   color: #fff;
 }
@@ -1196,15 +1197,13 @@ section {
 .contact .php-email-form label {
   padding-bottom: 8px;
 }
-.contact .php-email-form input,
-.contact .php-email-form textarea {
+.contact .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
   border-radius: 4px;
 }
-.contact .php-email-form input:focus,
-.contact .php-email-form textarea:focus {
+.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
   border-color: #47b2e4;
 }
 .contact .php-email-form input {
@@ -1213,7 +1212,7 @@ section {
 .contact .php-email-form textarea {
   padding: 10px 12px;
 }
-.contact .php-email-form button[type="submit"] {
+.contact .php-email-form button[type=submit] {
   background: #47b2e4;
   border: 0;
   padding: 12px 34px;
@@ -1221,7 +1220,7 @@ section {
   transition: 0.4s;
   border-radius: 50px;
 }
-.contact .php-email-form button[type="submit"]:hover {
+.contact .php-email-form button[type=submit]:hover {
   background: #209dd8;
 }
 @-webkit-keyframes animate-loading {
@@ -1309,12 +1308,12 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
   text-align: left;
 }
-#footer .footer-newsletter form input[type="email"] {
+#footer .footer-newsletter form input[type=email] {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
 }
-#footer .footer-newsletter form input[type="submit"] {
+#footer .footer-newsletter form input[type=submit] {
   position: absolute;
   top: 0;
   right: 0;
@@ -1329,7 +1328,7 @@ section {
   border-radius: 50px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
-#footer .footer-newsletter form input[type="submit"]:hover {
+#footer .footer-newsletter form input[type=submit]:hover {
   background: #209dd8;
 }
 #footer .footer-top {
@@ -1433,8 +1432,7 @@ section {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  #footer .copyright,
-  #footer .credits {
+  #footer .copyright, #footer .credits {
     text-align: center;
     float: none;
   }
