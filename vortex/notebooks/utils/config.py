@@ -17,5 +17,5 @@ TEST_FILENAMES = os.path.sep.join([BASE_OUTPUT, "test_images.txt"])
 # initialize our initial learning rate, number of epochs to train
 # for, and the batch size
 INIT_LR = 1e-4
-NUM_EPOCHS = 25
+NUM_EPOCHS = 5
 BATCH_SIZE = 32
