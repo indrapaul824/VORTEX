@@ -25,3 +25,13 @@ train-test-split:
 	$(CONDA_ACTIVATE) vortex3.9
 	cd vortex/utils 
 	python test_train_split.py --datadir="../../data/processed/threshZero_data/AN_DATA" --split=0.2 --train_output="../../data/processed/train" --test_output="../../data/processed/test" --image_ext="jpg"
+
+
+# Convert keras model to TFJS
+con-tfjs:
+	model_dir=./vortex/artifacts/$$model; \
+	target_dir=./sc_detector/artifacts/tfjs/$$model; \
+	tensorflowjs_converter --input_format keras \
+                       $$model_dir.h5 \
+                       $$target_dir
+	@echo -n "TFJS model.json saved at './sc_detector/artifacts/tfjs'"
