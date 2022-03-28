@@ -29,9 +29,9 @@ train-test-split:
 
 # Convert keras model to TFJS
 con-tfjs:
-	model_dir=./vortex/artifacts/$$model; \
-	target_dir=./sc_detector/artifacts/tfjs/$$model; \
+	model_dir=./vortex/artifacts/border_box/detector; \
+	target_dir=./vortex/artifacts/border_box/tfjs/detector; \
 	tensorflowjs_converter --input_format keras \
                        $$model_dir.h5 \
                        $$target_dir
-	@echo -n "TFJS model.json saved at './sc_detector/artifacts/tfjs'"
+	@echo -n "TFJS model.json saved at './vortex/artifacts/border_box/tfjs'"
