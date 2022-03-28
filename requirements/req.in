@@ -12,3 +12,4 @@ lxml
 cython
 tensorflowjs
 imutils
+opencv-contrib-python

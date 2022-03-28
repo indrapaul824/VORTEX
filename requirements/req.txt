@@ -102,6 +102,7 @@ numpy==1.22.3
     #   h5py
     #   keras-preprocessing
     #   matplotlib
+    #   opencv-contrib-python
     #   opencv-python
     #   opt-einsum
     #   pandas
@@ -112,6 +113,8 @@ numpy==1.22.3
     #   tensorflow-hub
 oauthlib==3.2.0
     # via requests-oauthlib
+opencv-contrib-python==4.5.5.64
+    # via -r requirements/req.in
 opencv-python==4.5.5.64
     # via -r requirements/req.in
 opt-einsum==3.3.0
