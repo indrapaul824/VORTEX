@@ -119,8 +119,16 @@
 
               <div class="accordion-list">
                 <div class="upload-btn-wrapper">
-                  <button class="btn">Upload a file</button>
-                  <input type="file" name="myfile" />
+                  <!-- <button class="btn">Upload a file</button> -->
+                  <label for="select-file-image" class="btn">
+                    Upload Image
+                  </label>
+                  <input
+                    id="select-file-image"
+                    type="file"
+                    onchange="loadFile(event)"
+                    style="display: none"
+                  />
                   <button
                     id="predict-button"
                     class="input-button predict-button"
@@ -171,7 +179,9 @@
 
             <div
               class="col-lg-5 align-items-stretch order-1 order-lg-2 img"
-              style="background-image: url('assets/img/Intensity_Estimation.png')"
+              style="
+                background-image: url('assets/img/Intensity_Estimation.png');
+              "
               data-aos="zoom-in"
               data-aos-delay="150"
             >
