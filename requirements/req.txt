@@ -56,6 +56,8 @@ idna==3.3
     # via requests
 importlib-metadata==4.11.3
     # via markdown
+imutils==0.5.4
+    # via -r requirements/req.in
 ipykernel==6.9.2
     # via -r requirements/req.in
 ipython==8.1.1
