@@ -364,6 +364,7 @@ h1, h2, h3, h4, h5, h6 {
   background: url('http://www.ifunia.com/images/christmas/youtube-upload-button.gif') center center no-repeat;
 }
 .upload-btn-wrapper {
+  padding-left: 150px;
   position: relative;
   overflow: hidden;
   display: inline-block;
@@ -382,7 +383,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #3074e3;
   border: none;
   width: 120px;
-  height: 65px;
+  height: 66.2px;
   color: #fff;
 }
 
@@ -601,9 +602,10 @@ section {
 # Why Us
 --------------------------------------------------------------*/
 .intensity .content {
-  padding: 60px 100px 0 100px;
+  padding: 70px 100px 0 100px;
 }
 .intensity .content h3 {
+  padding-left: 150px;
   font-weight: 400;
   font-size: 34px;
   color: #37517e;
@@ -618,9 +620,10 @@ section {
   color: #848484;
 }
 .intensity .img {
+  width: 300px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
 }
 .intensity .accordion-list {
   padding: 0 100px 60px 100px;
@@ -709,6 +712,7 @@ section {
   padding: 60px 100px 0 100px;
 }
 .detection .content h3 {
+  padding-left: 150px;
   font-weight: 400;
   font-size: 34px;
   color: #37517e;
@@ -723,9 +727,10 @@ section {
   color: #848484;
 }
 .detection .img {
+  width: 300px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
 }
 .detection .accordion-list {
   padding: 0 100px 60px 100px;
