@@ -13,3 +13,4 @@ cython
 tensorflowjs
 imutils
 opencv-contrib-python
+termcolor

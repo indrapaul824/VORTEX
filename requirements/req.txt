@@ -218,7 +218,9 @@ tensorflow-io-gcs-filesystem==0.24.0
 tensorflowjs==3.15.0
     # via -r requirements/req.in
 termcolor==1.1.0
-    # via tensorflow
+    # via
+    #   -r requirements/req.in
+    #   tensorflow
 tf-estimator-nightly==2.8.0.dev2021122109
     # via tensorflow
 threadpoolctl==3.1.0

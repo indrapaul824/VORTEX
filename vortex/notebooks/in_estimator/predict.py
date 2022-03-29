@@ -1,9 +1,10 @@
 import tensorflow as tf
-from tensorflow.keras.preprocessing.image import img_to_array, load_img
-from tensorflow.keras.models import load_model
+from keras.preprocessing.image import img_to_array, load_img
+from keras.models import load_model
 import numpy as np
 import mimetypes
 import argparse
+from termcolor import colored
 import os
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
@@ -55,4 +56,4 @@ for imagePath in imagePaths:
     # Convert predictions classes to one hot vectors 
     Y_pred_classes = np.argmax(Y_pred,axis = 1) 
 
-    print("The predicted class for the given image is: ", get_key(classes, Y_pred_classes[0]))
+    print(colored("The predicted class for the given image is: ", "green"), colored(get_key(classes, Y_pred_classes[0]), "red"))
