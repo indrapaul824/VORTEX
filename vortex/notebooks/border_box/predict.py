@@ -11,6 +11,8 @@ import imutils
 import cv2
 import os
 
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+
 
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()

@@ -7,7 +7,7 @@ IMAGES_PATH = os.path.sep.join([BASE_PATH, "images"])
 ANNOTS_PATH = os.path.sep.join([BASE_PATH, "labels.csv"])
 
 # define the path to the base output directory
-BASE_OUTPUT = "../artifacts/"
+BASE_OUTPUT = "../artifacts/border_box"
 # define the path to the output serialized model, model training plot,
 # and testing image filenames
 MODEL_PATH = os.path.sep.join([BASE_OUTPUT, "detector.h5"])
