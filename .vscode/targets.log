@@ -1,0 +1,396 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon May 23 17:52:58 2022
+
+# Variables
+
+# environment
+JAVA_HOME = /usr/lib/jvm/jdk-16.0.2
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+GNOME_SHELL_SESSION_MODE = pop
+# environment
+SSH_AGENT_LAUNCHER = gnome-keyring
+# environment
+FNM_DIR = /home/indrap24/.fnm
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-6f0cd9cf-3179-445c-960f-434f1b389c33.sock
+# environment
+MANDATORY_PATH = /usr/share/gconf/pop.mandatory.path
+# environment
+LC_NAME = en_US.UTF-8
+# environment
+LC_NUMERIC = en_US.UTF-8
+# environment
+VSCODE_CWD = /mnt/569013e9-d6c9-40ca-b4a9-2355022e7589/Projects/VORTEX
+# environment
+WINDOWPATH = 2
+# environment
+LC_ADDRESS = en_US.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+GTK3_MODULES = xapp-gtk3-module
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+GOPATH = /home/indrap24/.local/share/go
+# environment
+rvm_bin_path = /usr/share/rvm/bin
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/indrap24/Desktop/Projects/VORTEX
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/share/pop:/usr/share/gnome:/home/indrap24/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+OLDPWD = /home/indrap24/Desktop/Projects/VORTEX
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/indrap24/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+FNM_VERSION_FILE_STRATEGY = local
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# environment
+FNM_NODE_DIST_MIRROR = https://nodejs.org/dist
+# environment
+GNOME_TERMINAL_SERVICE = :1.215
+# makefile
+MAKEFLAGS = pqrR
+# environment
+FNM_LOGLEVEL = info
+# makefile
+CURDIR := /mnt/569013e9-d6c9-40ca-b4a9-2355022e7589/Projects/VORTEX
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MANWIDTH = 999
+# environment
+FNM_ARCH = x64
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-pop:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+ZDOTDIR = /home/indrap24/.config/zsh
+# environment
+XDG_SESSION_DESKTOP = pop
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 213669
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+XDG_DATA_HOME = /home/indrap24/.local/share
+# environment
+MANPAGER = nvim +Man!
+# environment
+SESSION_MANAGER = local/indra-pop-os:@/tmp/.ICE-unix/2694,unix/indra-pop-os:/tmp/.ICE-unix/2694
+# automatic
+*F = $(notdir $*)
+# environment
+QT_QPA_PLATFORMTHEME = qt5ct
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile (from 'Makefile', line 9)
+SHELL = /bin/bash
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+LD_LIBRARY_PATH = /usr/local/lib
+# environment
+DENO_INSTALL = /home/indrap24/.deno
+# environment
+SHLVL = 1
+# environment
+rvm_path = /usr/share/rvm
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/9c6f06d7_0414_4d07_a3fa_396052e0a0e7
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/indrap24/.yarn/bin:/home/indrap24/.config/yarn/global/node_modules/.bin:/home/indrap24/.deno/bin:/home/indrap24/.miniconda/bin:/run/user/1000/fnm_multishells/213469_1653300377213/bin:/home/indrap24/.fnm:/home/indrap24/.local/share/go/bin:/home/indrap24/.cargo/bin:/home/indrap24/.local/bin:/home/indrap24/.yarn/bin:/home/indrap24/.config/yarn/global/node_modules/.bin:/home/indrap24/.deno/bin:/home/indrap24/.miniconda/bin:/run/user/1000/fnm_multishells/208900_1653300125796/bin:/home/indrap24/.fnm:/home/indrap24/.local/share/go/bin:/home/indrap24/.cargo/bin:/home/indrap24/.local/bin:/home/indrap24/.cargo/bin:/home/indrap24/.local/bin:/home/indrap24/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/share/rvm/bin:/usr/lib/cuda/bin:./node_modules/.bin:./node_modules/.bin
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = en_US:en
+# environment
+LC_MONETARY = en_US.UTF-8
+# automatic
+^F = $(notdir $^)
+# environment
+LC_TIME = en_US.UTF-8
+# environment
+XDG_CONFIG_HOME = /home/indrap24/.config
+# environment
+FNM_MULTISHELL_PATH = /run/user/1000/fnm_multishells/213469_1653300377213
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = indrap24
+# environment
+LC_TELEPHONE = en_US.UTF-8
+# automatic
+?F = $(notdir $?)
+# environment
+GTK_IM_MODULE = ibus
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = pop
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = pop:GNOME
+# makefile (from 'Makefile', line 12)
+CONDA_ACTIVATE = source $$(conda info --base)/etc/profile.d/conda.sh ; conda activate ; conda activate
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+BROWSER = chrome
+# environment
+LOGNAME = indrap24
+# environment
+TERMINAL = gnome-terminal
+# makefile
+.DEFAULT_GOAL := help
+# environment
+SYSTEMD_EXEC_PID = 207864
+# environment
+rvm_version = 1.29.12 (manual)
+# environment
+EDITOR = nvim
+# environment
+DISPLAY = :0
+# environment
+USER = indrap24
+# environment
+GTK_MODULES = gail:atk-bridge:appmenu-gtk-module
+# environment
+DEFAULTS_PATH = /usr/share/gconf/pop.default.path
+# default
+MAKE_VERSION := 4.3
+# environment
+LC_MEASUREMENT = en_US.UTF-8
+# environment
+_ = /usr/bin/code
+# environment
+LC_PAPER = en_US.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+COLORTERM = truecolor
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/indrap24
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-e583692f-1.67.2-main.sock
+# environment
+TERM = xterm-256color
+# environment
+PAPERSIZE = letter
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+XDG_CACHE_HOME = /home/indrap24/.cache
+# environment
+KEYTIMEOUT = 1
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VTE_VERSION = 6800
+# environment
+DEBUG = WARN
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+rvm_prefix = /usr/share
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = pop
+# environment
+LC_IDENTIFICATION = en_US.UTF-8
+# variable set hash-table stats:
+# Load=137/1024=13%, Rehash=0, Collisions=13/168=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2050, inode 56492586): 20 files, no impossibilities.
+
+# 20 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+.ONESHELL:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+ 
+make: *** No rule to make target 'all'.  Stop.
+
+#  File has not been updated.
+
+conda-pip:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 16):
+	conda env update --prune -f env.yml
+	$(CONDA_ACTIVATE) vortex3.9
+	pip-compile requirements/req.in
+	pip-sync requirements/req.txt
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-29 00:21:19.533205023
+#  File has been updated.
+#  Successfully updated.
+
+con-tfjs:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 32):
+	model_dir=./vortex/artifacts/border_box/detector; \
+	target_dir=./vortex/artifacts/border_box/tfjs/detector; \
+	tensorflowjs_converter --input_format keras \
+                       $$model_dir.h5 \
+                       $$target_dir
+	@echo -n "TFJS model.json saved at './vortex/artifacts/border_box/tfjs'"
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+help:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 3):
+	@$(MAKE) -pRrq -f $(lastword $(MAKEFILE_LIST)) : 2>/dev/null | awk -v RS= -F: '/^# File/,/^# Finished Make data base/ {if ($$1 !~ "^[#.]") {print $$1}}' | sort | egrep -v -e '^[^[:alnum:]]' -e '^$@$$'
+
+pip-tools:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 21):
+	pip-compile requirements/req.in
+	pip-sync requirements/req.txt
+
+train-test-split:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 25):
+	$(CONDA_ACTIVATE) vortex3.9
+	cd vortex/utils 
+	python test_train_split.py --datadir="../../data/processed/threshZero_data/AN_DATA" --split=0.2 --train_output="../../data/processed/train" --test_output="../../data/processed/test" --image_ext="jpg"
+
+# files hash-table stats:
+# Load=10/1024=1%, Rehash=0, Collisions=0/20=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 31 / storage = 298 B / avg = 9 B
+# current buf: size = 8162 B / used = 298 B / count = 31 / avg = 9 B
+
+# strcache performance: lookups = 41 / hit rate = 24%
+# hash-table stats:
+# Load=31/8192=0%, Rehash=0, Collisions=0/41=0%
+# Finished Make data base on Mon May 23 17:52:58 2022
+
+ 

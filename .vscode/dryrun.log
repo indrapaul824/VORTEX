@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/569013e9-d6c9-40ca-b4a9-2355022e7589/Projects/VORTEX'
+make -pRrq -f Makefile : 2>/dev/null | awk -v RS= -F: '/^# File/,/^# Finished Make data base/ {if ($1 !~ "^[#.]") {print $1}}' | sort | egrep -v -e '^[^[:alnum:]]' -e '^help$'
+ 
+con-tfjs
+conda-pip
+pip-tools
+train-test-split
+make: Leaving directory '/mnt/569013e9-d6c9-40ca-b4a9-2355022e7589/Projects/VORTEX'
+ 
