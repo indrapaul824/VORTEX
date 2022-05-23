@@ -1,0 +1,11 @@
+Ministry/Organization Name:	Department of Space, Indian Space Research Organisation (ISRO).
+Problem Statement Code:		SS591
+Problem Statement Title: 	Deep Learning-based Cyclone Intensity estimation using INSAT-3D IR Imagery
+Team Name: 			VORTEX
+Team Leader Name:		Indrashis Paul
+Institute Code (AISHE): 	U-0923
+Institute Name: 		VIT Bhopal University
+Theme Name: 			Disaster Management
+
+Abstract:
+According to a study, India faced 117 cyclones from 1970 to 2019, and more than 40,000 lives were lost in this period. These lives could have been saved if they would have been evacuated to safer locations at the right time. Existing cyclone estimation techniques use traditional sensory data-based estimation which fails to cope in cases where rapid intensification of the cyclone occurs. Our novel idea is to collect a set of archived infrared images captured by the INSAT-3D satellite and then train two state-of-the-art vision models over it, one for detecting the cyclone and the other one for estimating the cyclone intensity class (cyclonic storm, severe cyclonic storm, very severe cyclonic storm, extremely severe cyclonic storm, super cyclonic storm). This novel technique would be able to overcome the limitations of the traditional systems by detecting and classifying the cyclone intensity at every stage of rapid cyclone intensification. By providing the access to these classifications from our website to the general public, we would be able to help them in learning the severity state of the cyclone that is about to hit their region so that they can plan for evacuation. Also, researchers and experts at ISRO Monitoring Department would be able to continuously monitor the same and formulate their assessments.
