@@ -10,7 +10,8 @@
 </div>
 
 > **Warning**
-> Work in progress.
+
+> Work in progress. This project is still under development.
 
 ## Table of Contents
 
